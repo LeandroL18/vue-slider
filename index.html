@@ -36,8 +36,8 @@
                     <div class="next" @click="nextImg"></div>
 
                     <!-- Visualizzazione thumbs -->
-                    <div class="thumb active">
-                        <img v-for="(image, i) in slides" :src="slides[i].image" :key="i"/>
+                    <div class="thumb">
+                        <img v-for="(image, i) in slides" :src="slides[i].image" :key="i" :class="activeImage === i ? 'active' : ''"/>
                     </div>
                 </div>
             </div>

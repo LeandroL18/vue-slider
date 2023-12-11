@@ -1,3 +1,5 @@
+// Partendo dallo starter pack dello zip che vi passo, rifare lo slider ma questa volta usando Vue.
+
 const { createApp } = Vue;
 
 createApp ({
